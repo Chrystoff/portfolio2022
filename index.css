@@ -19,9 +19,8 @@
 #hero h1 {
   border: black solid 1px;
   padding: 0.3rem;
-  color: white;
+  color: black;
   background: var(--main-color-fade);
-  font-family: "Abril Fatface", serif;
 }
 
 /* Main paragraph underneath hero banner*/
