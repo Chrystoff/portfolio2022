@@ -1,0 +1,45 @@
+/* Hero Space */
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("images/me_portfolio.JPG");
+  background-size: cover;
+}
+
+/* Center Portrait pic */
+#hero img {
+  width: 20%;
+  border-radius: 50%;
+  margin-top: 1rem;
+  border: black solid 1px;
+}
+
+/* Intro header */
+#hero h1 {
+  border: black solid 1px;
+  padding: 0.3rem;
+  color: white;
+  background: var(--main-color-fade);
+  font-family: "Abril Fatface", serif;
+}
+
+/* Main paragraph underneath hero banner*/
+main {
+  text-align: center;
+  padding: 15px;
+}
+
+/* TABLET screen size -- MIN Screen Size ----- MAX screen size */
+@media only screen and (min-width: 401px) and (max-width: 899) {
+}
+
+/* MONITOR screen size -- MIN screen size -- No max screen size */
+@media only screen and (min-width: 900px) {
+  #hero {
+    background-position-y: -90px;
+  }
+  #hero img {
+    width: 10%;
+  }
+}

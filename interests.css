@@ -1,0 +1,38 @@
+@media only screen and (min-width: 401px) and (max-width: 899px) {
+  section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  article {
+    width: 45%;
+    border: var(--main-color-fade) solid 1px;
+    border-radius: 2.5%;
+    padding: 0 10px;
+    margin: 5px 0;
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  article {
+    width: 30%;
+    border-radius: 2.5%;
+    padding: 0 10px;
+    margin: 5px 0;
+  }
+
+  hr {
+    display: none;
+  }
+}

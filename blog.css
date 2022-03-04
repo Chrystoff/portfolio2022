@@ -1,0 +1,56 @@
+h3,
+h6 {
+  margin: 0.3rem;
+}
+
+/* Paragraphs */
+p {
+  margin: 1rem;
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+}
+
+.blog-port {
+  display: none;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 899px) {
+  /* main > section > h3 + h6 + div > img + p */
+  .img-para {
+    display: flex;
+  }
+
+  .blog-port {
+    display: inline;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* main > section > h3 + h6 + div > img + p */
+  main {
+    display: flex;
+  }
+
+  section {
+    display: block;
+    justify-content: space-around;
+    width: 24%;
+  }
+
+  .img-para {
+    /* image + para */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .blog-port {
+    /* image within each blog */
+    display: inline;
+    overflow: hidden;
+    width: 90%;
+  }
+}

@@ -1,0 +1,86 @@
+/* Blanket style sheet for all htmls */
+
+:root {
+  --main-color: rgb(199, 196, 118);
+  --main-color-fade: rgba(199, 196, 118, 0.5);
+}
+
+/* All text */
+* {
+  font-family: sans-serif;
+}
+
+/* All images */
+img {
+  width: 100%;
+}
+
+/* This change let's the nav-bar and footer extend to the ends of the screen */
+body {
+  margin: 0rem;
+}
+
+/* Headings */
+h1 {
+  text-decoration: underline;
+}
+
+/* NAV BAR */
+#navbar {
+  display: flex;
+  background: var(--main-color);
+}
+
+/* Logo in nav bar */
+#navbar img {
+  width: 3rem;
+  border-radius: 15%;
+}
+
+/* Nav > List */
+#navbar ul {
+  display: flex; /* default places them inline */
+  margin-left: auto; /*pushing it to the right */
+  align-items: center;
+  list-style: none;
+}
+
+/* Nav > List-Items */
+#navbar ul li {
+  padding: 0 0.5rem;
+}
+
+/* Nav > List-items > Anchors */
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+#navbar ul li a:hover {
+  color: pink;
+}
+
+/* CONTACT ME block */
+#contact-me {
+  position: static;
+  width: 100%;
+  background: var(--main-color);
+  padding-bottom: 1rem;
+}
+
+/* Social links block*/
+#contact-me p,
+#contact-me nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Social Anchors */
+#contact-me nav a {
+  padding-left: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-family: serif;
+  margin: -0.8rem auto;
+}
