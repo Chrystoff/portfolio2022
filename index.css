@@ -30,7 +30,7 @@ main {
 }
 
 /* TABLET screen size -- MIN Screen Size ----- MAX screen size */
-@media only screen and (min-width: 401px) and (max-width: 899) {
+@media only screen and (min-width: 401px) and (max-width: 899px) {
 }
 
 /* MONITOR screen size -- MIN screen size -- No max screen size */
