@@ -69,7 +69,10 @@ h1 {
 }
 
 /* Social links block*/
-#contact-me p,
+#contact-me p {
+  text-align: center;
+}
+
 #contact-me nav {
   display: flex;
   justify-content: center;
