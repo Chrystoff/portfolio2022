@@ -1,10 +1,5 @@
-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-article {
-  width: 47vw;
+h4 {
+  text-align: center;
 }
 
 /* Project section - setting children to flex box and wrap*/
@@ -17,10 +12,14 @@ article {
 /* list items. giving border + removing list style + setting uniform size */
 #projects ul li {
   list-style: none; /* removing dot points on the list items */
-  border: 1px solid black; /* Thought the websites looked good with a black border */
   text-align: center; /* aligning text to center of boxes */
   width: 40%; /* width to set uniform size of boxes */
+  margin: 0.6rem;
 }
 #projects ul li a p {
   margin: 0px; /* Reducing the white space that the web name takes up */
+}
+
+#projects ul li a img {
+    border: 1px solid black; /* Thought the websites looked good with a black border */
 }
