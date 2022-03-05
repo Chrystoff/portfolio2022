@@ -1,18 +1,25 @@
-/* Blanket style sheet for all htmls */
+/* Blanket style sheet for all htmls*/
+/* for the navbar and footer/social links */
 
+/* making some variables */
 :root {
-  --main-color: rgb(199, 196, 118);
-  --main-color-fade: rgba(199, 196, 118, 0.5);
+  --main-color: rgb(199, 196, 118); /* main colour of website */
+  --main-color-fade: rgba(
+    199,
+    196,
+    118,
+    0.5
+  ); /* main colour of website with a fade */
 }
 
 /* All text */
 * {
-  font-family: sans-serif;
+  font-family: sans-serif; /* setting font to sans serif */
 }
 
 /* All images */
 img {
-  width: 100%;
+  width: 100%; /* I honestly don't remember why this is here but it ruins some stuff now when i get rid of it */
 }
 
 /* This change let's the nav-bar and footer extend to the ends of the screen */
@@ -22,69 +29,72 @@ body {
 
 /* Headings */
 h1 {
-  font-family: "Abril Fatface", serif;
-  text-decoration: underline;
+  font-family: "Abril Fatface", serif; /* custom font with a backup serif font if "Abril Fatface" not supported by browser */
+  text-decoration: underline; /* giving h1 elements (all headings) an underline*/
 }
 
 /* NAV BAR */
 #navbar {
-  display: flex;
-  background: var(--main-color);
+  display: flex; /* making the navbar elements flexbox */
+  background: var(--main-color); /* setting the colour of navbar */
 }
 
-/* Logo in nav bar */
+/* Cat Logo in nav bar */
 #navbar img {
-  width: 3rem;
-  border-radius: 15%;
+  width: 3rem; /* size of img */
 }
 
 /* Nav > List */
 #navbar ul {
   display: flex; /* default places them inline */
   margin-left: auto; /*pushing it to the right */
-  align-items: center;
-  list-style: none;
+  list-style: none; /* removing list dots */
 }
 
-/* Nav > List-Items */
+/* Nav > List > List-Items */
 #navbar ul li {
-  padding: 0 0.5rem;
+  padding: 0 0.5rem; /* giving space to the sides of navigation options */
 }
 
-/* Nav > List-items > Anchors */
+/* Nav > List> List-items > Anchors */
 #navbar ul li a {
-  text-decoration: none;
-  color: black;
+  text-decoration: none; /* removes underline */
+  color: black; /* turns nav-options black */
 }
+
+/* hover setting */
 #navbar ul li a:hover {
-  color: pink;
+  color: pink; /* colour turns pink when moused over */
 }
 
 /* CONTACT ME block */
 #contact-me {
-  position: static;
   width: 100%;
-  background: var(--main-color);
-  padding-bottom: 1rem;
+  background: var(
+    --main-color
+  ); /* gives background the main colour of website using our variable */
+  padding-bottom: 1rem; /* gives space under social links */
 }
 
 /* Social links block*/
 #contact-me p {
-  text-align: center;
+  text-align: center; /* centers text in social links block */
 }
 
+/* parent of anchors */
 #contact-me nav {
-  display: flex;
-  justify-content: center;
+  display: flex; /* flexbox's the social link images */
+  justify-content: center; /* centers social link images */
 }
 
 /* Social Anchors */
 #contact-me nav a {
-  padding-left: 1rem;
+  padding: 0 0.5rem; /* adds space on sides of social links */
 }
 
+/* Footer trademark */
 footer {
-  text-align: center;
-  font-family: serif;
-  margin: -0.8rem auto;
+  text-align: center; /* centers text on screen */
+  font-family: serif; /* sets font to serif */
+  margin: -0.8rem auto; /* brings it closer to social bar */
 }

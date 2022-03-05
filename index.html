@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link to the stylesheet -->
+    <!-- Link to the stylesheets -->
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="style.css" />
     <!-- Favicon and Title -->
@@ -16,29 +16,49 @@
     />
   </head>
 
+  <!-- Start of the displayed page elements -->
   <body>
+    <!-- navbar and logo -->
     <header>
       <nav id="navbar">
         <!-- Logo/Icon -->
         <img src="images/cat_and_moon.svg" alt="Logo" />
         <!-- Navbar -->
         <ul>
-          <li><a href="interests.html">Interests</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="projects.html">Projects</a></li>
+          <li>
+            <a href="interests.html">Interests</a>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
         </ul>
       </nav>
     </header>
 
+    <!-- Hero display -->
     <section id="hero">
+      <!-- portrait inside hero -->
       <img src="images/portrait.png" alt="portrait" />
+      <!-- Main title -->
       <h1>Hi! I'm Brian Macreadie</h1>
     </section>
 
+    <!-- main element holding paragraphs of text. and some <br/> elements -->
     <main>
       <p>
-        My name is Brian Macreadie, I am a human man from Launceston, Tasmania.
-        I was born on 11th of march 1990 which makes me 32! I have 3 brothers
+        My name is <strong>Brian Macreadie</strong>, I am a <em>human</em> man
+        from
+        <a
+          href="https://en.wikipedia.org/wiki/Launceston,_Tasmania"
+          target="_blank"
+          >Launceston</a
+        >,
+        <a href="https://en.wikipedia.org/wiki/Tasmania" target="_blank"
+          >Tasmania</a
+        >. I was born on 11th of march 1990 which makes me 32! I have 3 brothers
         and 1 sister. I've worked in multiple industries including hospitality,
         factory labourer, a representative and even a delivery driver.
         <br />
@@ -62,27 +82,28 @@
     <!-- Contact me footer -->
     <section id="contact-me">
       <div>
+        <!-- The resume download link and some forced spaces using '&nbsp;' -->
         <p>
-          Here is my<a href="files/boulder.pdf" download>resume</a>and these are
-          the ways to contact me:
+          Here is my&nbsp;<a href="files/boulder.pdf" download>resume</a
+          >&nbsp;and these are the ways to contact me:
         </p>
-        <nav id="social-links">
-          <a href="#">
+        <nav>
+          <a href="https://www.facebook.com/">
             <img src="images/facebook.svg" alt="Facebook" />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/home">
             <img src="images/twitter.svg" alt="Twitter" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/">
             <img src="images/instagram.svg" alt="Instagram" />
           </a>
-          <a href="#">
+          <a href="https://au.linkedin.com/">
             <img src="images/linkedin.svg" alt="LinkedIn" />
           </a>
         </nav>
       </div>
     </section>
-
+    <!-- footer with trademark -->
     <footer>
       <p>2022 &copy; Brian Macreadie</p>
     </footer>

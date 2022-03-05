@@ -1,26 +1,32 @@
+/* Heading "Previous Projects */
 h1 {
-  text-align: center;
+  text-align: center; /* Aligns title in center */
+  font-size: 2rem; /* custom setting the heading size */
 }
 
 /* Project section - setting children to flex box and wrap*/
 #projects ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0px;
-  justify-content: center;
+  display: flex; /* setting children to flex box and wrap */
+  flex-wrap: wrap; /* makes the children elements wrap when they no longer fit on the same line */
+  padding: 0px; /* getting rid of some mysterious padding which was putting my boxes off center */
+  justify-content: center; /* centers project layout */
 }
+
 /* list items. giving border + removing list style + setting uniform size */
 #projects ul li {
   list-style: none; /* removing dot points on the list items */
   text-align: center; /* aligning text to center of boxes */
   width: 40%; /* width to set uniform size of boxes */
-  margin: 0.6rem;
+  margin: 0.6rem; /* inserts a gap between projects */
 }
+
+/* paragraphs within the anchor (website/project name) */
 #projects ul li a p {
-  color: black;
+  color: black; /* setting text to black */
   margin: 0px; /* Reducing the white space that the web name takes up */
 }
 
+/* images within the anchor */
 #projects ul li a img {
-  border: 1px solid black; /* Thought the websites looked good with a black border */
+  border: 1px solid black; /* giving a thin black border around the images */
 }

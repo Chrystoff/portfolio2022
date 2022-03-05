@@ -1,56 +1,62 @@
-h3,
+/* Title styles */
+h3, /* heading of blog post */
 h6 {
-  margin: 0.3rem;
+  /* date of blog post */
+  margin: 0.3rem; /* shrinking margin between the titles */
 }
 
 /* Paragraphs */
 p {
-  margin: 1rem;
+  margin: 1rem; /* adds space around text */
 }
 
 /* Main Heading */
 h1 {
-  text-align: center;
+  text-align: center; /* aligning heading to center */
 }
 
+/* portrait of each blog */
 .blog-port {
-  display: none;
+  display: none; /* the portrait is not shown during mobile use */
 }
 
+/* style settings when in tablet size */
 @media only screen and (min-width: 401px) and (max-width: 899px) {
-  /* main > section > h3 + h6 + div > img + p */
+  /* main > section > h3 + h6 + div > img + p */ /* This was a just to help me remember what the heirarchy was */
   .img-para {
-    display: flex;
+    /* the parent div of image and paragraph */
+    display: flex; /* making the two children flex boxes */
   }
 
+  /* img within the blog post */
   .blog-port {
-    display: inline;
-    overflow: hidden;
+    display: inline; /* re-defining the display of img. This makes it visible, since earlier i set it to none.  */
   }
 }
 
+/* style settings when on monitors */
 @media only screen and (min-width: 900px) {
   /* main > section > h3 + h6 + div > img + p */
+  /* The parent of all content on page outside of footer and navbar */
   main {
-    display: flex;
+    display: flex; /* everythings flexbox! */
   }
 
+  /* section holds each blog post */
   section {
-    display: block;
-    justify-content: space-around;
-    width: 24%;
+    display: block; /* changing the display to block */
+    justify-content: space-around; /* adds space around elements */
+    width: 24%; /* setting width to fit 4 blogs on a row */
   }
 
   .img-para {
-    /* image + para */
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* p now wraps under img */
     justify-content: center;
   }
+
   .blog-port {
-    /* image within each blog */
     display: inline;
-    overflow: hidden;
     width: 90%;
   }
 }

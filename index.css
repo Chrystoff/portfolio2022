@@ -1,44 +1,41 @@
 /* Hero Space */
 #hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: url("images/me_portfolio.JPG");
-  background-size: cover;
+  display: flex; /* all children become flexbox */
+  flex-direction: column; /* makes the flexboxes column layout */
+  align-items: center; /* aligns flexboxes from left to right */
+  background: url("images/me_portfolio.JPG"); /* puts in a background */
+  background-size: cover; /* the background covers the space of the hero element */
 }
 
 /* Center Portrait pic */
 #hero img {
-  width: 20%;
-  border-radius: 50%;
-  margin-top: 1rem;
-  border: black solid 1px;
+  width: 20%; /* sets width of center portrait */
+  border-radius: 50%; /* rounds the center portrait */
+  margin-top: 1rem; /* gives center portrait a margin on all sides */
+  border: black solid 1px; /* gives a black border to center portrait */
 }
 
 /* Intro header */
 #hero h1 {
-  border: black solid 1px;
-  padding: 0.3rem;
-  color: black;
-  background: var(--main-color-fade);
+  border: black solid 1px; /* header within hero element */
+  padding: 0.3rem; /* gives padding between text and it's border */
+  background: var(
+    --main-color-fade
+  ); /* gives a background colour which is translucent */
 }
 
 /* Main paragraph underneath hero banner*/
 main {
-  text-align: center;
-  padding: 15px;
-}
-
-/* TABLET screen size -- MIN Screen Size ----- MAX screen size */
-@media only screen and (min-width: 401px) and (max-width: 899px) {
+  text-align: center; /* centers main paragraph */
+  padding: 15px; /* padding around text */
 }
 
 /* MONITOR screen size -- MIN screen size -- No max screen size */
 @media only screen and (min-width: 900px) {
   #hero {
-    background-position-y: -90px;
+    background-position-y: -90px; /* changes focus area of background image to my face */
   }
   #hero img {
-    width: 10%;
+    width: 10%; /* sets image size */
   }
 }
