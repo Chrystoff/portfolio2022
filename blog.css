@@ -21,7 +21,7 @@ h1 {
 }
 
 /* style settings when in tablet size */
-@media only screen and (min-width: 401px) and (max-width: 899px) {
+@media only screen and (min-width: 420px) and (max-width: 899px) {
   /* main > section > h3 + h6 + div > img + p --- This was a just to help me remember what the heirarchy was */
   /* the parent div of image and paragraph */
   .img-para {

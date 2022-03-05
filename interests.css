@@ -4,7 +4,7 @@ h1 {
 }
 
 /* style settings when in tablet size */
-@media only screen and (min-width: 401px) and (max-width: 899px) {
+@media only screen and (min-width: 420px) and (max-width: 899px) {
   /* minimum pixel width 401, maximum 899 pixels */
   /* section holds all elements */
   section {
