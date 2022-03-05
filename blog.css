@@ -28,7 +28,7 @@ h1 {
     display: flex; /* making the two children flex boxes */
   }
 
-  section div img {
+  .blog-port {
     width: 150%;
   }
 
