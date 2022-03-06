@@ -1,0 +1,77 @@
+commit b7e7653d84ec76bb3ea24d5a54163813a8e949c5
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Sun Mar 6 12:05:43 2022 +1100
+
+    changed folder layout to match submission req's
+
+commit 14c6949b9e90363fe35520afdc676021ee752d7e
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Sun Mar 6 10:59:29 2022 +1100
+
+    Changed min-size to 420 to fix display on larger phones
+
+commit 782a5e2a5cddcaa5afd055d1c31559dcc44a6535
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Sun Mar 6 10:38:36 2022 +1100
+
+    Finished README.md added new pics
+
+commit e5e85a1ce060c6e7df7f8eb76df1687cce663f6c
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Sat Mar 5 21:42:36 2022 +1100
+
+    Added github repo
+
+commit e767b85fbed5eea8e751034102bf473ca824520b
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Sat Mar 5 21:34:06 2022 +1100
+
+    added website link to readme.md
+
+commit 3b2ce4c7507b06b29b6653314d03a9276ccfba54
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Sat Mar 5 21:29:33 2022 +1100
+
+    fixed issue with last commit
+
+commit 68f6641f26e803f78a9f1dc26ce935a9d32903ba
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Sat Mar 5 21:28:14 2022 +1100
+
+    added 5th blog post
+
+commit 6e7d1c7a36ff4b93db50e893963d3ac936b94f25
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Sat Mar 5 18:35:27 2022 +1100
+
+    Commented all code + cleaned some code + changed lorem in interests
+
+commit 854d1a5460c7922196b7959d6c2f6bdedc4a5cbf
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Fri Mar 4 16:48:28 2022 +1100
+
+    added download link and adjusted footer
+
+commit 442c2fa5cd052995f0b9bd091a29c9236ced5a9b
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Fri Mar 4 16:30:47 2022 +1100
+
+    other small adjustments
+
+commit 050d71aa51244ba8a9d27a99450394fd31c75dbe
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Fri Mar 4 15:16:08 2022 +1100
+
+    changed career to projects
+
+commit 011a1390f5d89b187de72d3f890e623f0da04ec0
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Fri Mar 4 14:38:14 2022 +1100
+
+    changes to career.css
+
+commit 78deb5128b23beac7c8f3f17af419d16295c75c0
+Author: Brian <10380@coderacademy.edu.au>
+Date:   Fri Mar 4 14:20:45 2022 +1100
+
+    initial commit
